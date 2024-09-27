@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Coding - SKCET IT</title>
+    <style>
+        /* Reset some default browser styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #bb86fc;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #03dac6;
+            margin-top: 40px;
+        }
+
+        p.description {
+            max-width: 800px;
+            margin: 0 auto 40px auto;
+            font-size: 1.1em;
+            text-align: center;
+            color: #b0b0b0;
+        }
+
+        .challenges-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .challenge {
+            background-color: #1e1e1e;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 20px;
+            width: 300px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .challenge:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+        }
+
+        .challenge img {
+            width: 100%;
+            height: 200px;
+            background-color: #333;
+            border-radius: 4px;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .challenge-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #ff79c6;
+        }
+
+        .challenge-description {
+            font-size: 1em;
+            color: #c0c0c0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .challenges-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .challenge {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Dark Coding Challenge - SKCET</h1>
+    <p class="description">
+        Welcome to the Dark Coding Challenge at SKCET IT! Dive into a series of intriguing coding tasks designed to test and enhance your HTML and CSS skills. Each challenge presents a unique problem that you must solve by crafting elegant and efficient code. Showcase your creativity and problem-solving abilities as you navigate through these exercises. Good luck, and may the code be with you!
+    </p>
+
+    <div class="challenges-container">
+        <div class="challenge">
+            <h2 class="challenge-title">Challenge 1: Diamond</h2>
+            <img src="./images/29.png" alt="Challenge 1 Image">
+           
+        </div>
+
+        <div class="challenge">
+            <h2 class="challenge-title">Challenge 2: Pokeball</h2>
+            <img src="./images/95.png" alt="Challenge 2 Image">
+          
+        </div>
+
+        <div class="challenge">
+            <h2 class="challenge-title">Challenge 3: Battery</h2>
+            <img src="images/images.png" alt="Challenge 3 Image">
+           
+        </div>
+
+        <div class="challenge">
+            <h2 class="challenge-title">Challenge 4: Snowman</h2>
+            <img src="./images/97.png" alt="Challenge 4 Image">
+           
+        </div>
+
+        <div class="challenge">
+            <h2 class="challenge-title">Challenge 5: Scenery</h2>
+            <img src="images/121.png" alt="Challenge 5 Image">
+            
+        </div>
+
+        <div class="challenge">
+            <h2 class="challenge-title">Challenge 6: Star</h2>
+            <img src="images/156.png" alt="Challenge 6 Image">
+            
+        </div>
+    </div>
+</body>
+</html>
